@@ -15,9 +15,3 @@ def shaker_sort(mas: list):
                 mas[i-1], mas[i] = mas[i], mas[i-1]
         left += 1
 
-mas = []
-for i in range(random.randrange(1, 100)):
-    mas.append(random.randrange(1, 100))
-print(mas)
-shaker_sort(mas)
-print(mas)
