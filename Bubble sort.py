@@ -1,6 +1,3 @@
-import random
-
-
 def bubble_sort(mas: list):
     len_list = len(mas)
     for i in range(len_list - 1):
