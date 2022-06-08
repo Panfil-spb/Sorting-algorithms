@@ -1,5 +1,3 @@
-import random
-
 def combo_sort(mas: list):
     k = 1.217
     step = len(mas) - 1
