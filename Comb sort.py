@@ -11,11 +11,3 @@ def combo_sort(mas: list):
             if mas[i] > mas[i+step]:
                 mas[i], mas[i+step] = mas[i+step], mas[i]
                 swaps = True
-
-
-mas = []
-for i in range(random.randrange(1, 100)):
-    mas.append(random.randrange(1, 100))
-print(mas)
-combo_sort(mas)
-print(mas)
