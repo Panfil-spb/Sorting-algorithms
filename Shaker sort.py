@@ -1,5 +1,3 @@
-import random
-
 def shaker_sort(mas: list):
     left = 0
     right = len(mas) - 1
@@ -14,4 +12,3 @@ def shaker_sort(mas: list):
             if mas[i-1] > mas[i]:
                 mas[i-1], mas[i] = mas[i], mas[i-1]
         left += 1
-
